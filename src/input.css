@@ -7,6 +7,7 @@
 
 * {
   scroll-behavior: smooth;
+  font-family: "Noto Sans Lao", sans-serif;
 }
 
 /* Utilyty Class */
@@ -15,5 +16,12 @@
 }
 
 .font-eng {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* Components Class */
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
